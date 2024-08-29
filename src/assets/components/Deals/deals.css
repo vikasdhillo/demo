@@ -1,0 +1,21 @@
+.deals{
+    min-height: 100px;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.deals h5{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+}
+.our-deals h3{
+    font-weight: 400;
+    width: fit-content;
+}
+.our-deals h3::after{
+    content: '';
+    display: block;
+    height: 1.8px;
+    width: 60%;
+    background-color: var(--red);
+}

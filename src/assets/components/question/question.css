@@ -1,0 +1,12 @@
+
+.question-wrapper input{
+    border: 1px solid var(--gray);
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+}
+.question{
+    background-color: rgb(238, 234, 229);
+    padding: 10px;
+}

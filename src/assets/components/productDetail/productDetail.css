@@ -1,0 +1,105 @@
+.section-1{
+    padding: 5px;
+}
+
+.contact{
+    height: 200px;
+}
+.contact button{
+    width: fit-content;
+}
+.details h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.details .stars{
+    color: var(--yellow);
+}
+.rating .num-rate{
+    font-weight: 500;
+    color: var(--gray);
+}
+.rating .reviews{
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+.details .company{
+    color: var(--gray);
+}
+.details .loaction{
+    color: var(--dark-gray);
+}
+.timing{
+    color: var(--gray);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.details .icons{
+    color: var(--blue);
+}
+.review-summary .rating-bars{
+    align-items: center;
+}
+.review-summary .bars{
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 20px;
+    height: 6px;
+    background-color: var(--light-gray);
+}
+.review-summary .bars .inner-bar{
+    border-radius: inherit;
+    background-color: var(--yellow);
+    height: 100%;
+}
+.review-summary .rating-num p{
+    margin-bottom: 0px;
+}
+.rating-num .rating-bars:first-child .inner-bar{
+    width: 100%;
+}
+.rating-num .rating-bars:nth-child(2) .inner-bar{
+    width: 80%;
+}
+.rating-num .rating-bars:nth-child(3) .inner-bar{
+    width: 70%;
+}
+.rating-num .rating-bars:nth-child(4) .inner-bar{
+    width: 20%;
+}
+.rating-num .rating-bars:nth-child(5) .inner-bar{
+    width: 5%;
+}
+.stars{
+    color: var(--yellow);
+}
+.review-image{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+.review-box{
+    border: 1px solid var(--light-gray);
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.review-summary h3{
+    font-weight: 400;
+}
+.last-rating span{
+    font-size: calc(0.5rem + 0.7vw);
+}
+
+@media (max-width:768px) {
+    .section-1 .header{
+        flex-direction: column-reverse;
+    }
+    .last-rating .stars{
+        font-size: 0.5rem;
+    }
+}

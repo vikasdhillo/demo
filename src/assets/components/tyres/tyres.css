@@ -1,0 +1,43 @@
+.tyres-sold h3{
+    font-weight: 400;
+    text-align: center;
+}
+.tyres-sold h3::after{
+    content: '';
+    display: block;
+    height: 1.8px;
+    width: 60%;
+    background-color: var(--red);
+}
+.tyre-card{
+    background-image: url("./tyrebg.png");
+    background-repeat: no-repeat;
+    background-position: 150px 30px;
+    padding: 15px;
+    box-shadow: 1px 1px 2px;
+}
+.tyre-card p{
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+.tyre-card .star{
+    background-color: var(--green);
+    padding: 0px 5px;
+    border-radius: 5px;
+    color: white;
+}
+.tyre-card .rating{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    gap: 5px;
+}
+.tyre-card .rating .review{
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+.tyre-card .offer{
+    font-weight: 400;
+    color: var(--green);
+    font-size: 0.8rem;
+}

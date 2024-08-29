@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --red: #d32f2f;
+    --yellow: #fbbc04;
+    --gray: #70757a;
+    --light-gray: #9a9b9c;
+    --dark-gray: #4f5255;
+    --blue: #0d6efd;
+    --green: #4CA72C;
+}
